@@ -1,58 +1,64 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Clicking Button Simulator",
+    "Credits": "Created by Matthew Peters, template by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Button",
+    "Loc1": "Thanks",
+    "Baz": "Bazinga",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Button": {
+            "Body": "Click the Button!",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
-                }
-            ]
-        },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
-            "Choices": [
-                {
-                    "Text": "North",
-                    "Target": "Kresge"
+                    "Text": "Button",
+                    "Target": "Nothing"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Rachel Carson"
-                }
-            ]
-        },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
-            "Choices": [
-                {
-                    "Text": "North",
-                    "Target": "Porter"
+                    "Text": "Get the button that does something DLC!",
+                    "Target": "DLC"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Button",
+                    "Target": "Bazinga"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "Nothing": {
+            "Body": "Nothing Happened!"
+        },
+        "DLC": {
+            "Body": "Button that does something dlc $12.99",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
+                    "Text": "Buy Now!",
+                    "Target": "Apple"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "Exit!",
+                    "Target": "Button"
                 }
             ]
         },
-        "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+        "Apple": {
+            "Body": "Use apple pay",
+            "Choices": [
+                {
+                    "Text": "Use apple pay",
+                    "Target": "appleID"
+                },
+                {
+                    "Text": "Exit!",
+                    "Target": "Button"
+                }
+            ]
+        },
+        "appleID": {
+            "Body": "Scanning face ID"
+        },
+        "Thanks": {
+            "Body": "Thank you for your purchase!"
+        },
+        "Bazinga": {
+            "Body": "Bazinga"
         }
     }
 }
